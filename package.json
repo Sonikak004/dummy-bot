@@ -1,0 +1,24 @@
+{
+  "name": "dummy-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonikak004/dummy-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sonikak004/dummy-bot/issues"
+  },
+  "homepage": "https://github.com/Sonikak004/dummy-bot#readme",
+  "description": "",
+  "dependencies": {
+    "venom-bot": "^5.3.0"
+  }
+}
