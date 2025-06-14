@@ -1,14 +1,28 @@
+# Node modules – always ignore this
 node_modules/
-tokens/**/Cookies
-tokens/**/Cookies-journal
-tokens/**/LOG
-tokens/**/LOCK
-tokens/**/CURRENT
-tokens/**/Session_*
-tokens/**/Safe Browsing*
-tokens/**/Extension */
-tokens/**/IndexedDB/
-tokens/**/GPUCache/
-tokens/**/Local Storage/
-tokens/**/Network/
-tokens/**/Sessions/
+
+# Token/session data – contains sensitive cookies & auth
+tokens/
+*.data.json
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Env files (if using dotenv)
+.env
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# If using nohup on Termux
+nohup.out
